@@ -19,8 +19,10 @@ app.listen(port, () => {
   console.log(`Server started at http://localhost:${port}`);
 });
 
-const myFunc = (num: number) => num * 5;
+export default app;
 
-console.log('hello, world');
+// const myFunc = (num: number) => num * 5;
+//
+// console.log('hello, world');
 
-export default myFunc;
+// export default myFunc;
